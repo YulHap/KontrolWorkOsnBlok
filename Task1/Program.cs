@@ -34,3 +34,6 @@ void PrintResult (string[] array)
     }
     System.Console.WriteLine();
 }
+
+ArrThreeChar(arrCount1, arrCount2);
+PrintResult(arrCount2);
