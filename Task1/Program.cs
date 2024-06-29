@@ -10,3 +10,19 @@
 
 string[] arrCount1 = new string[5] {"one", "two", "three", "four", "five"};
 string[] arrCount2 = new string[arrCount1.Length];
+
+
+
+void ArrThreeChar(string[] array1, string[] array2)
+{
+    int i2 = 0;
+    for(int i = 0; i < array1.Length; i++)
+    {
+        if(array1[i].Length <= 3)
+        {
+            array2[i2] = array1[i];
+            i2++;
+        }
+    }
+}
+
