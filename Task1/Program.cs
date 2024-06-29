@@ -7,3 +7,6 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
+
+string[] arrCount1 = new string[5] {"one", "two", "three", "four", "five"};
+string[] arrCount2 = new string[arrCount1.Length];
